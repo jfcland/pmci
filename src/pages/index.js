@@ -15,6 +15,11 @@ export default function Home() {
           <a href="home">Home</a>
         </div>
       </div>
+      <div id="main">
+        <div>Parking Lots</div>
+        <div>Recreational Courts</div>
+      </div>
+      <div id="footer"></div>
     </div>
   )
 }
