@@ -6,5 +6,9 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-offline`, `gatsby-transformer-yaml`],
+  plugins: [
+    `gatsby-plugin-offline`,
+    `gatsby-transformer-yaml`,
+    `gatsby-plugin-less`,
+  ],
 }
