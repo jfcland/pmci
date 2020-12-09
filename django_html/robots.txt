@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Host: www.pavementcontractors.com
+Sitemap: http://www.pavementcontractors.com/sitemap.xml
+
