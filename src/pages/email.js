@@ -12,7 +12,12 @@ export default function Email() {
             <div class="article_wrapper">
               <h1>Contact Us</h1>
 
-              <form name="contact" method="POST" data-netlify="true">
+              <form name="contact"
+                    method="POST"
+                    action="/success/"
+                    data-netlify="true"
+                    data-netlify-honeypot="name"
+              >
                 <div class="form-group">
                   <label>Your Name:</label>
                   <input type="text" class="form-control" name="name" />
