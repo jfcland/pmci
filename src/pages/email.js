@@ -42,7 +42,7 @@ export default class Contact extends React.Component {
           <div class="col-sm-4 col-md-4">
             <div id="center-wide">
               <div class="article_wrapper">
-                <h1>Contact Us</h1>
+                <h1>Send us an email</h1>
 
                 <form name="contact"
                       method="POST"
