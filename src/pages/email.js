@@ -51,6 +51,7 @@ export default class Contact extends React.Component {
                       data-netlify-honeypot="name"
                       onSubmit={this.handleSubmit}
                 >
+                  <input type="hidden" name="form-name" value="contact" />
                   <div class="form-group">
                     <label>Your Name:</label>
                     <input type="text" class="form-control" name="name" onChange={this.handleChange} />
