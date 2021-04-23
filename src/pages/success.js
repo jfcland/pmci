@@ -6,7 +6,7 @@ export default function SuccessPage() {
   return (
     <Layout>
       <h1>
-        <FormattedHTMLMessage id="success" />
+        <div id="success" />
       </h1>
     </Layout>
   )
