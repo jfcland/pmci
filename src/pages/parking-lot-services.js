@@ -13,11 +13,15 @@ import constructionMan from "../static/img/construction-man.jpg"
 export default function ParkingLotServices() {
   return (
     <Layout>
+      <br />
+
       <div class="row service">
         <div class="pmci-favicon">
           <h2>Parking Lot Services</h2>
         </div>
       </div>
+
+      <br />
 
       <div class="row service">
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">

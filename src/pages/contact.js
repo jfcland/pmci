@@ -6,10 +6,14 @@ import service_area from "../static/img/pmci_service_area.jpg"
 export default function Contact() {
   return (
     <Layout>
-      <div>
+      <br />
+      <div class="row">
         <div class="col-sm-1 col-md-1"></div>
         <div class="col-sm-5 col-md-5">
           <h2>Company Info</h2>
+
+          <br />
+
           <p>
             <strong>
               Pavement Maintenance Contractors Inc.
@@ -63,6 +67,7 @@ export default function Contact() {
         </div>
         <div class="col-sm-6 col-md-6 right">
           <h2>Primary Service Area</h2>
+          <br />
           <img src={service_area} />
         </div>
       </div>
