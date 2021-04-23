@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 
-export default SuccessPage() {
+export default function SuccessPage() {
   return (
     <Layout>
       <h1>
