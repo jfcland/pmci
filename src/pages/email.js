@@ -48,10 +48,17 @@ export default class Contact extends React.Component {
                       method="POST"
                       action="/success/"
                       data-netlify="true"
-                      data-netlify-honeypot="name"
+                      data-netlify-honeypot="bot-field"
                       onSubmit={this.handleSubmit}
                 >
+
                   <input type="hidden" name="form-name" value="contact" />
+
+                  <p hidden>
+                    <label>Don’t fill this out:{' '}</label>
+                    <input name="bot-field" onChange={this.handleChange} />
+                  </p>
+
                   <div class="form-group">
                     <label>Your Name:</label>
                     <input type="text" class="form-control" name="name" onChange={this.handleChange} />
