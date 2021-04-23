@@ -7,6 +7,7 @@ export default function SuccessPage() {
     <Layout>
       <h1>
         <div id="success" />
+        Thank you for contacting us, we will reply asap.
       </h1>
     </Layout>
   )
