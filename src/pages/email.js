@@ -27,44 +27,45 @@ export default class Contact extends React.Component {
       .catch(error => alert(error))
   }
 
-  return (
-    <Layout>
-      <div class="row">
-        <div class="col-sm-1 col-md-1"></div>
-        <div class="col-sm-4 col-md-4">
-          <div id="center-wide">
-            <div class="article_wrapper">
-              <h1>Contact Us</h1>
+  render() {
+    return (
+      <Layout>
+        <div class="row">
+          <div class="col-sm-1 col-md-1"></div>
+          <div class="col-sm-4 col-md-4">
+            <div id="center-wide">
+              <div class="article_wrapper">
+                <h1>Contact Us</h1>
 
-              <form name="contact"
-                    method="POST"
-                    action="/success/"
-                    data-netlify="true"
-                    data-netlify-honeypot="name"
-                    onSubmit={this.handleSubmit}
-              >
-                <div class="form-group">
-                  <label>Your Name:</label>
-                  <input type="text" class="form-control" name="name" onChange={this.handleChange} />
-                </div>
+                <form name="contact"
+                      method="POST"
+                      action="/success/"
+                      data-netlify="true"
+                      data-netlify-honeypot="name"
+                      onSubmit={this.handleSubmit}
+                >
+                  <div class="form-group">
+                    <label>Your Name:</label>
+                    <input type="text" class="form-control" name="name" onChange={this.handleChange} />
+                  </div>
 
-                <div class="form-group">
-                  <label>Your Email: </label>
-                  <input type="email" class="form-control" name="email" onChange={this.handleChange} />
-                </div>
+                  <div class="form-group">
+                    <label>Your Email: </label>
+                    <input type="email" class="form-control" name="email" onChange={this.handleChange} />
+                  </div>
 
-                <div class="form-group">
-                  <label>Message: </label>
-                  <textarea name="message" class="form-control" rows="6" onChange={this.handleChange} ></textarea>
-                </div>
+                  <div class="form-group">
+                    <label>Message: </label>
+                    <textarea name="message" class="form-control" rows="6" onChange={this.handleChange} ></textarea>
+                  </div>
 
-                <button type="submit" class="btn btn-default">Send</button>
-              </form>
+                  <button type="submit" class="btn btn-default">Send</button>
+                </form>
 
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </Layout>
-  )
+      </Layout>
+  }
 }
