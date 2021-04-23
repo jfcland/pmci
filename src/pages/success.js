@@ -10,7 +10,7 @@ export default function SuccessPage() {
         <div class="col-sm-5 col-md-5">
           <h1>Thank you for contacting us.</h1>
           <div id="success">
-            A response will be sent to the email address you’ve indicated within 2 business days. If it’s urgent, we encourage you to call us a call. Have a wonderful day!
+            A response will be sent to the email address you’ve indicated within 48 hours. If it’s urgent, we encourage you to give us a call. Have a wonderful day!
           </div>
         </div>
       </div>
