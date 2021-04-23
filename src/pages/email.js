@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 
-export default function Contact extends React.Component {
+export default class Contact extends React.Component {
   constructor(props) {
     super(props)
     this.state = {}
