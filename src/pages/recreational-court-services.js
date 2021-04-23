@@ -37,12 +37,12 @@ export default function RecreationalCourtServices() {
         </div>
 
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
-          <a href="patching/index.html">
+          <a href="/patching/">
             <img src={patching}/>
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
-          <h3><a href="patching/index.html">Patching</a></h3>
+          <h3><a href="/patching/">Patching</a></h3>
           <div class="teaser">Repair of damaged or sunken areas of recreational courts</div>
         </div>
       </div>
