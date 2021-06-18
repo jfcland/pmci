@@ -18,9 +18,11 @@ export default function Contact() {
             <strong>
               Pavement Maintenance Contractors Inc.
               <br />
-              Route 512, PO Box 56
+              1039 Trexlertown Road
               <br />
-              Bath, PA 18014
+              PO Box 1039
+              <br />
+              Trexlertown, PA 18087
               <br />
             </strong>
           </p>
