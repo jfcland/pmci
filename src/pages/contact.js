@@ -42,22 +42,24 @@ export default function Contact() {
             <a href="tel:16108376703">610-837-6703 EXT. 301</a>
             <br />
             <strong>Email:</strong>{" "}
-            <a href="mailto:jciccone:gblack@pavementcontractors.com">
+            <a href="mailto:jciccone:jciccone@pavementcontractors.com">
               jciccone@pavementcontractors.com
             </a>
             <br />
           </p>
           <p>
-            <strong>Project Manager:</strong> Gary Black
+            <strong>Project Manager:</strong> Patrick Gargone
             <br />
             <strong>Phone:</strong>{" "}
             <a href="tel:16108376703">610-837-6703 EXT. 305</a>
             <br />
+            <strong>Facsimile:</strong> <a href="tel:14842399005">610-837-8554</a>
+            <br />
             <strong>Cell:</strong> <a href="tel:14842399005">484-239-9005</a>
             <br />
             <strong>Email:</strong>{" "}
-            <a href="mailto:gblack@pavementcontractors.com">
-              gblack@pavementcontractors.com
+            <a href="mailto:pgargone@pavementcontractors.com">
+              pgargone@pavementcontractors.com
             </a>
             <br />
           </p>
