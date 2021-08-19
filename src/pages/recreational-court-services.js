@@ -126,7 +126,7 @@ export default function RecreationalCourtServices() {
         </div>
         <div class="row">
           <div class="outer">
-            Copyright &#169; 1978-2020 Pavement Maintenance Contractors Inc.
+            Copyright &#169; 1978-2021 Pavement Maintenance Contractors Inc.
             <span class="developed-by"><a href="http://nillab.com/" target="_blank" title="Developed by Nillab">Developed by nillab</a></span>
           </div>
         </div>

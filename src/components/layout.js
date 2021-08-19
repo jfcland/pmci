@@ -15,7 +15,7 @@ export default function Layout({ children }) {
               border="0"
             />
           </a>
-          <div id="tagline">42 Years of Professional Service</div>
+          <div id="tagline">43 Years of Professional Service</div>
         </div>
       </div>
       <nav id="main-nav" class="navbar navbar-default">
@@ -74,7 +74,7 @@ export default function Layout({ children }) {
         </div>
         <div class="row">
           <div class="outer">
-            Copyright &#169; 1978-2020 Pavement Maintenance Contractors Inc.
+            Copyright &#169; 1978-2021 Pavement Maintenance Contractors Inc.
             <span class="developed-by">
               <a
                 href="http://nillab.com/"
