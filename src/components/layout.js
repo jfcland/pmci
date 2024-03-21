@@ -74,7 +74,7 @@ export default function Layout({ children }) {
         </div>
         <div class="row">
           <div class="outer">
-            Copyright &#169; 1978-2021 Pavement Maintenance Contractors Inc.
+            Copyright &#169; 1978-2024 Pavement Maintenance Contractors Inc.
             <span class="developed-by">
               <a
                 href="http://nillab.com/"
