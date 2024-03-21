@@ -15,7 +15,7 @@ export default function Layout({ children }) {
               border="0"
             />
           </a>
-          <div id="tagline">43 Years of Professional Service</div>
+          <div id="tagline">46 Years of Professional Service</div>
         </div>
       </div>
       <nav id="main-nav" class="navbar navbar-default">
