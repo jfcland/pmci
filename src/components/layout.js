@@ -1,6 +1,6 @@
 import React from "react"
 
-import logo from "../static/pmci-logo.jpg"
+import logo from "../static/img/pmci-logo.jpg"
 
 export default function Layout({ children }) {
   return (
