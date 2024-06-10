@@ -11,7 +11,7 @@ export default function SuccessPage() {
     <Layout>
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-1" id="service-name">
-          <h1>Crack Repair</h1>
+          <h1>Specialty Coatings</h1>
         </div>
       </div>
       <div class="row">
