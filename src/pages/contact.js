@@ -51,7 +51,7 @@ export default function Contact() {
         </div>
         <div class="col-sm-6 col-md-6 right">
           <h2>Primary Service Area</h2><br />
-          <img src={service_area} />
+          <img src={service_area} alt=""/>
         </div>
       </div>
     </Layout>

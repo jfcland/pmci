@@ -18,12 +18,12 @@ export default function SuccessPage() {
         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-1">
 
           <div class="service-photo">
-            <div><img src={img1}/></div>
+            <div><img src={img1} alt="Court Before Crack Repair"/></div>
             <div class="caption">Court Before Crack Repair</div>
           </div>
 
           <div class="service-photo">
-            <div><img src={img2}/></div>
+            <div><img src={img2} alt="Court After Crack Repair"/></div>
             <div class="caption">Court After Crack Repair</div>
           </div>
 

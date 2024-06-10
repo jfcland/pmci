@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import acrylic from "../static/img/acrylic-color-coatings.jpg"
 import crackRepair from "../static/img/crack-repair-2.jpg"
 import equipmentInstallation from "../static/img/equipment-installation.jpg"
-import unicourt from "../static/img/unicourt.jpg"
+import pickleball from "../static/img/pickleball.jpg"
 import patching from "../static/img/patching.jpg"
 import pavementConsultation from "../static/img/pavement-consultation.jpg"
 import playingLines from "../static/img/playing-lines.jpg"
@@ -27,7 +27,7 @@ export default function RecreationalCourtServices() {
       <div class="row service">
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
           <a href="/acrylic/">
-            <img src={acrylic} />
+            <img src={acrylic} alt=""/>
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
@@ -38,67 +38,82 @@ export default function RecreationalCourtServices() {
 
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
           <a href="/patching/">
-            <img src={patching}/>
+            <img src={patching} alt=""/>
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
           <h3><a href="/patching/">Patching</a></h3>
-          <div class="teaser">Repair of damaged or sunken areas of recreational courts</div>
+          <div class="teaser">Repair of damaged or sunken areas of recreational courts.</div>
         </div>
+
       </div>
 
       <div class="row service">
+
+        <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
+          <a href="/pickleball/">
+            <img src={pickleball} alt=""/>
+          </a>
+        </div>
+        <div class="col-sm-3 col-md-2 category-teaser">
+          <h3><a href="/pickleball/">Pickleball</a></h3>
+          <div class="teaser">We Specalize in Pickleball courts.</div>
+        </div>
+
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
           <a href="/playing-lines/">
             <h3>Playing Lines</h3>
             <img src={playingLines} alt="playing lines" />
           </a>
           <p>
-            Layout and installation of regulation playing lines for all sports
+            Layout and installation of regulation playing lines for all sports.
           </p>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
           <h3><a href="/playing-lines/">Playing Lines</a></h3>
-          <div class="teaser">Layout and installation of regulation playing lines for all sports</div>
-        </div>
-
-        <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
-          <a href="/crack-repair-2/">
-            <img src={crackRepair} />
-          </a>
-        </div>
-        <div class="col-sm-3 col-md-2 category-teaser">
-          <h3><a href="/crack-repair-2/">Crack Repair</a></h3>
-          <div class="teaser">Repair of cracks using the most up to date methods and materials</div>
+          <div class="teaser">Layout and installation of regulation playing lines for all sports.</div>
         </div>
       </div>
 
       <div class="row service">
+
+        <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
+          <a href="/crack-repair-2/">
+            <img src={crackRepair} alt=""/>
+          </a>
+        </div>
+        <div class="col-sm-3 col-md-2 category-teaser">
+          <h3><a href="/crack-repair-2/">Crack Repair</a></h3>
+          <div class="teaser">Repair of cracks using the most up to date methods and materials.</div>
+        </div>
+
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
           <a href="/equipment-installation/">
-            <img src={equipmentInstallation} />
+            <img src={equipmentInstallation} alt=""/>
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
           <h3><a href="/equipment-installation/">Equipment Installation</a></h3>
-          <div class="teaser">Furnishing and installation of equipment for all recreational courts</div>
+          <div class="teaser">Furnishing and installation of equipment for all recreational courts.</div>
         </div>
+
+      </div>
+
+      <div class="row service">
 
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
           <a href="/specialty-coatings/">
-            <img src={specialtyCoatings} />
+            <img src={specialtyCoatings} alt=""/>
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
           <h3><a href="/specialty-coatings/">Specialty Coatings</a></h3>
           <div class="teaser">Specialty coatings that include cushioned, street hockey and inline skating surfaces.</div>
         </div>
-      </div>
 
-      <div class="row service">
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
           <a href="/pavement-consultation-2/">
-            <img src={pavementConsultation} />
+            <img src={pavementConsultation} alt=""/>
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
@@ -106,15 +121,6 @@ export default function RecreationalCourtServices() {
           <div class="teaser">Design and implement refurbishing of existing courts or building of new courts.</div>
         </div>
 
-        <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
-          <a href="/unicourt/">
-            <img src={unicourt} />
-          </a>
-        </div>
-        <div class="col-sm-3 col-md-2 category-teaser">
-          <h3><a href="/unicourt/">UniCourt</a></h3>
-          <div class="teaser">One Court For All Sports Great Backyard Family Fun Custom design for your favorite sports. Many different court sizes, configurations &amp; colors to choose from.</div>
-        </div>
       </div>
 
       <div id="footer">

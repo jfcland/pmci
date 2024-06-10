@@ -79,6 +79,7 @@ export default function Layout({ children }) {
               <a
                 href="http://nillab.com/"
                 target="_blank"
+                rel="noreferrer"
                 title="Developed by Nillab"
               >
                 Developed by nillab

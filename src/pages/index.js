@@ -19,7 +19,7 @@ export default function Home() {
             <div class="col-md-5">
               <h2>Parking Lots</h2>
               <br />
-              <img src={parklots} />
+              <img src={parklots} alt=""/>
             </div>
           </a>
           <a
@@ -29,7 +29,7 @@ export default function Home() {
             <div class="col-md-5">
               <h2>Recreational Courts</h2>
               <br />
-              <img src={homecourt} />
+              <img src={homecourt} alt=""/>
             </div>
           </a>
           <div class="col-md-1"></div>

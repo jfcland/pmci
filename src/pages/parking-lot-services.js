@@ -26,7 +26,7 @@ export default function ParkingLotServices() {
       <div class="row service">
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
           <a href="/seal-coating/">
-            <img src={blacktopSealing} />
+            <img src={blacktopSealing} alt=""/>
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
@@ -36,7 +36,7 @@ export default function ParkingLotServices() {
 
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
           <a href="/blacktop-repairs/">
-            <img src={patchRepairs}/>
+            <img src={patchRepairs} alt=""/>
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
@@ -48,7 +48,7 @@ export default function ParkingLotServices() {
       <div class="row service">
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
           <a href="/crack-repair/">
-            <img src={crackRepair} />
+            <img src={crackRepair} alt=""/>
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
@@ -58,7 +58,7 @@ export default function ParkingLotServices() {
 
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
           <a href="/pavement-markings/">
-            <img src={trafficMarkings}/>
+            <img src={trafficMarkings} alt=""/>
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
@@ -70,7 +70,7 @@ export default function ParkingLotServices() {
       <div class="row service">
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
           <a href="/pavement-consultation/">
-            <img src={constructionMan} />
+            <img src={constructionMan} alt=""/>
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">

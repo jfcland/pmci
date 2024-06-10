@@ -18,12 +18,12 @@ export default function SuccessPage() {
         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-1">
 
           <div class="service-photo">
-            <div><img src={patching1}/></div>
+            <div><img src={patching1} alt="Birdbaths patched with Acrylic Leveling Compound"/></div>
             <div class="caption">&quot;Bird Baths&quot; patched with Acrylic Leveling Compound</div>
             </div>
 
             <div class="service-photo">
-              <div><img src={patching2}/></div>
+              <div><img src={patching2} alt="Large Acrylic Patch"/></div>
               <div class="caption">Large Acrylic Patch</div>
             </div>
 

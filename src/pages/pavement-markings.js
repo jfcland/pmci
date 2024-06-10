@@ -18,12 +18,12 @@ export default function SuccessPage() {
         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-1">
 
           <div class="service-photo">
-            <div><img src={img1}/></div>
+            <div><img src={img1} alt=""/></div>
             <div class="caption">Parking Lot Traffic Markings</div>
           </div>
 
           <div class="service-photo">
-            <div><img src={img2}/></div>
+            <div><img src={img2} alt=""/></div>
             <div class="caption">Traffic Control and Equipment</div>
           </div>
 
