@@ -63,12 +63,12 @@ export default function RecreationalCourtServices() {
         </div>
 
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
-          <a href="/crack-repair-2/">
+          <a href="/crack-repair/">
             <img src={crackRepair} />
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
-          <h3><a href="/crack-repair-2/">Crack Repair</a></h3>
+          <h3><a href="/crack-repair/">Crack Repair</a></h3>
           <div class="teaser">Repair of cracks using the most up to date methods and materials</div>
         </div>
       </div>
@@ -97,12 +97,12 @@ export default function RecreationalCourtServices() {
 
       <div class="row service">
         <div class="col-sm-2 col-md-2 col-md-offset-1 category-img">
-          <a href="/pavement-consultation-2/">
+          <a href="/pavement-consultation/">
             <img src={pavementConsultation} />
           </a>
         </div>
         <div class="col-sm-3 col-md-2 category-teaser">
-          <h3><a href="/pavement-consultation-2/">Pavement Consultation</a></h3>
+          <h3><a href="/pavement-consultation/">Pavement Consultation</a></h3>
           <div class="teaser">Design and implement refurbishing of existing courts or building of new courts.</div>
         </div>
 
