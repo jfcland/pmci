@@ -36,11 +36,6 @@ export default function Layout({ children }) {
                 </a>
               </li>
               <li>
-                <a href="/email/" title="Email">
-                  Email
-                </a>
-              </li>
-              <li>
                 <a href="/contact/" title="Company Information">
                   Contact
                 </a>
