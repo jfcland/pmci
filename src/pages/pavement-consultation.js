@@ -9,6 +9,7 @@ import img2 from "../static/img/secondary/pavement-consultation-pl_02.jpg"
 export default function SuccessPage() {
   return (
     <Layout>
+      <div class="m-1">
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-1" id="service-name">
           <h1>Pavement Consultation</h1>
@@ -42,6 +43,7 @@ export default function SuccessPage() {
               to a successful project with lasting results.</font>
           </p>
         </div>
+      </div>
       </div>
     </Layout>
   )

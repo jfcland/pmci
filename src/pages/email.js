@@ -37,6 +37,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Layout>
+      <div class="m-1">
         <div class="row">
           <div class="col-sm-1 col-md-1"></div>
           <div class="col-sm-4 col-md-4">
@@ -81,6 +82,7 @@ export default class Contact extends React.Component {
             </div>
           </div>
         </div>
+      </div>
       </Layout>
     )
   }

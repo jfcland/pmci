@@ -10,6 +10,7 @@ export default function Home() {
     <Layout>
       <div class="home">
         <div id="main" class="container">
+            <div class="row">
           <div class="col-md-1"></div>
           <a
             href="/parking-lot-services/"
@@ -33,6 +34,7 @@ export default function Home() {
             </div>
           </a>
           <div class="col-md-1"></div>
+        </div>
         </div>
       </div>
     </Layout>

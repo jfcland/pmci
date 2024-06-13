@@ -13,6 +13,7 @@ import constructionMan from "../static/img/construction-man.jpg"
 export default function ParkingLotServices() {
   return (
     <Layout>
+      <div class="m-1">
       <br />
 
       <div class="row service">
@@ -77,7 +78,7 @@ export default function ParkingLotServices() {
           <h3><a href="/pavement-consultation/">Pavement Consultation</a></h3>
           <div class="teaser">For new construction or existing blacktop.</div>
         </div>
-
+      </div>
       </div>
     </Layout>
   )

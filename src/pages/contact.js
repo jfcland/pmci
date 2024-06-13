@@ -6,6 +6,7 @@ import service_area from "../static/img/pmci_service_area.jpg"
 export default function Contact() {
   return (
     <Layout>
+      <div class="m-1">
       <br />
       <div class="row">
         <div class="col-sm-1 col-md-1"></div>
@@ -54,6 +55,8 @@ export default function Contact() {
           <img src={service_area} alt=""/>
         </div>
       </div>
+      </div>
+
     </Layout>
   )
 }

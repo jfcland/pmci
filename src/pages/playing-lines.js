@@ -9,6 +9,7 @@ import img2 from "../static/img/secondary/playing-lines_02.jpg"
 export default function SuccessPage() {
   return (
     <Layout>
+      <div class="m-1">
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-1" id="service-name">
           <h1>Playing Lines</h1>
@@ -43,6 +44,7 @@ export default function SuccessPage() {
             installed by PMCI will be accurate and long lasting.</font>
           </p>
         </div>
+      </div>
       </div>
     </Layout>
   )
