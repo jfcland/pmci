@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Layout>
       <div className="container mx-auto md:w-3/5 grid grid-cols-1 md:grid-cols-2 gap-15 sm:bg-gray-50 sm:my-5 px-2 pb-5 sm:px-[23px] sm:py-[15px]">
-        <div>
+        <div className="pt-4 sm:pt-0">
           <Link
             to="/parking-lot-services/"
             title="Parking Lot Services"

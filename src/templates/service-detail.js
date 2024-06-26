@@ -21,8 +21,8 @@ const service = props => {
   });
   return (
     <Layout>
-      <div className="container mx-auto w-2/5 bg-gray-50 m-[25px] px-[23px] py-[15px]">
-        <div className="pb-5 text-center text-3xl text-green-700 font-bold">
+      <div className="container mx-auto w-3/5 bg-gray-50 m-[25px] px-[23px] py-[15px]">
+        <div className="pb-5 text-center text-3xl text-green-700 font-bold pt-4 sm:pt-0">
           {name}
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">

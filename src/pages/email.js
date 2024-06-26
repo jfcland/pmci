@@ -29,7 +29,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Layout>
-        <div className="container mx-auto w-2/5 m-[25px] px-[23px] py-[15px]">
+        <div className="container mx-auto md:w-3/5 gap-15 sm:bg-gray-50 sm:my-5 px-2 pb-5 sm:px-[23px] sm:py-[15px]">
           <div className="text-3xl text-center text-green-700 font-bold pb-4">
             Send us an email
           </div>
