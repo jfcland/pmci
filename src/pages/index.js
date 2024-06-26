@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import parklots from "../static/img/home-parkinglot-collage.png"
-import homecourt from "../static/img/home-court-collage.png"
+import parklots from "../images/home-parkinglot-collage.png"
+import homecourt from "../images/home-court-collage.png"
 
 export default function Home() {
   return (
