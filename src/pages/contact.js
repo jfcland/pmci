@@ -6,57 +6,102 @@ import service_area from "../static/img/pmci_service_area.jpg"
 export default function Contact() {
   return (
     <Layout>
-      <div class="m-1">
-      <br />
-      <div class="row">
-        <div class="col-sm-1 col-md-1"></div>
-        <div class="col-sm-5 col-md-5">
-          <h2>Company Info</h2>
-
-          <br />
-
-          <p>
-            <strong>
-              Pavement Maintenance Contractors Inc.<br />
-              1039 Trexlertown Road<br />
-              PO Box 1039<br />
-              Trexlertown, PA 18087<br />
-            </strong>
-          </p>
-          <p>
-            <strong>Lehigh Valley: </strong><a href="tel:16108376703">610-837-6703</a><br />
-            <strong>Poconos: </strong><a href="tel:15704215532">570-421-5532</a><br />
-          </p>
-          <p>
-            <strong>President: </strong>Joe Ciccone<br />
-            <strong>Phone: </strong><a href="tel:16108376703">610-837-6703 EXT. 301</a><br />
-            <strong>Email: </strong>
-            <a href="mailto:jciccone:jciccone@pavementcontractors.com">
-              jciccone@pavementcontractors.com
-            </a><br />
-          </p>
-          <p>
-            <strong>Project Manager:</strong> Ron Brand<br />
-            <strong>Phone: </strong><a href="tel:16108376703">610-837-6703 EXT. 305</a><br />
-            <strong>Cell: </strong><a href="tel:14842399006">484-239-9006</a><br />
-            <strong>Email: </strong>
-            <a href="mailto:rbrand@pavementcontractors.com">
-              rbrand@pavementcontractors.com
-            </a><br />
-          </p>
-          <p>
-            <a href="/">
-              <strong>PAVEMENTCONTRACTORS.COM</strong>
-            </a>
-          </p>
+      <div className="container mx-auto md:w-3/5 grid grid-cols-1 md:grid-cols-2 gap-15 sm:bg-gray-50 sm:my-5 px-2 pb-5 sm:px-[23px] sm:py-[15px]">
+        <div className="pt-4 sm:pt-0">
+          <div>
+            <div className="text-xl lg:text-3xl text-green-700 font-bold pb-4">
+              Company Info
+            </div>
+            <div className="grid gap-y-4 text-green-900 pb-5 sm:pb-0">
+              <div className="font-bold">
+                Pavement Maintenance Contractors Inc.
+                <br />
+                1039 Trexlertown Road
+                <br />
+                PO Box 1039
+                <br />
+                Trexlertown, PA 18087
+                <br />
+              </div>
+              <div>
+                <span className="font-bold">Lehigh Valley: </span>
+                <a
+                  href="tel:16108376703"
+                  className="text-sky-500 hover:text-sky-700"
+                >
+                  610-837-6703
+                </a>
+                <br />
+                <span className="font-bold">Poconos: </span>
+                <a
+                  href="tel:15704215532"
+                  className="text-sky-500 hover:text-sky-700"
+                >
+                  570-421-5532
+                </a>
+              </div>
+              <div>
+                <span className="font-bold">President: </span>
+                <span className="text-gray-800">Joe Ciccone</span>
+                <br />
+                <span className="font-bold">Phone: </span>
+                <a
+                  href="tel:16108376703"
+                  className="text-sky-500 hover:text-sky-700"
+                >
+                  610-837-6703
+                </a>{" "}
+                <span className="text-gray-800">EXT. 301</span>
+                <br />
+                <span className="font-bold">Email: </span>
+                <a
+                  href="mailto:jciccone:jciccone@pavementcontractors.com"
+                  className="text-sky-500 hover:text-sky-700"
+                >
+                  jciccone@pavementcontractors.com
+                </a>
+              </div>
+              <div>
+                <span className="font-bold">Project Manager: </span>
+                <span className="text-gray-800">Ron Brand</span>
+                <br />
+                <span className="font-bold">Phone: </span>
+                <a
+                  href="tel:16108376703"
+                  className="text-sky-500 hover:text-sky-700"
+                >
+                  610-837-6703
+                </a>{" "}
+                <span className="text-gray-800">EXT. 305</span>
+                <br />
+                <span className="font-bold">Cell: </span>
+                <a
+                  href="tel:14842399006"
+                  className="text-sky-500 hover:text-sky-700"
+                >
+                  484-239-9006
+                </a>
+                <br />
+                <span className="font-bold">Email: </span>
+                <a
+                  href="mailto:rbrand@pavementcontractors.com"
+                  className="text-sky-500 hover:text-sky-700"
+                >
+                  rbrand@pavementcontractors.com
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-6 right">
-          <h2>Primary Service Area</h2><br />
-          <img src={service_area} alt=""/>
+        <div>
+          <div className="my-10 sm:my-0">
+            <div className="text-xl lg:text-3xl text-green-700 font-bold pb-4">
+              Primary Service Area
+            </div>
+            <img src={service_area} alt="Primary Service Area" />
+          </div>
         </div>
       </div>
-      </div>
-
     </Layout>
   )
 }

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="180.62222mm"
+   height="180.62222mm"
+   viewBox="0 0 180.62222 180.62222"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0456808"
+     inkscape:cx="340.92623"
+     inkscape:cy="334.71018"
+     inkscape:window-width="1916"
+     inkscape:window-height="1036"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true" /><defs
+     id="defs1" /><g
+     inkscape:label="icon"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-14.533467,-58.188889)"><rect
+       style="fill:#0f5439;fill-opacity:1;stroke-width:0.264583"
+       id="rect1"
+       width="180.561"
+       height="179.08296"
+       x="14.143115"
+       y="58.20779"
+       sodipodi:insensitive="true"
+       inkscape:label="background" /><path
+       id="path1"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:6.416;stroke-dasharray:none;paint-order:normal"
+       d="m 134.25725,83.724233 -77.568387,0.25528 -0.04186,17.003087 h 8.612912 v 93.56794 h -9.063013 v 18.7296 h 41.087413 v -18.26555 h -7.59385 V 156.89444 H 134.3327 L 153.49225,137.7354 V 102.95923 Z M 89.510115,104.90329 h 32.115345 l 4.9537,4.95371 v 21.66793 l -6.1743,6.17481 H 89.214525 Z"
+       inkscape:label="logo" /></g></svg>

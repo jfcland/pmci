@@ -1,88 +1,106 @@
 import React from "react"
-
+import { Link } from "gatsby"
 import logo from "../static/img/pmci-logo.jpg"
+
+function isActive({ isCurrent }) {
+  return isCurrent ? { className: "mx-6 text-yellow-400" } : null
+}
 
 export default function Layout({ children }) {
   return (
-    <div>
-      <div id="header">
-        <div class="container">
+    <div className="flex flex-col h-screen justify-between">
+      <header className="h-30">
+        <div className="bg-green-900 pt-5">
           <a href="/">
             <img
               src={logo}
               alt="Pavement Maintenance Contractors"
               id="logo"
-              border="0"
+              className="mx-auto"
             />
           </a>
-          <div id="tagline">46 Years of Professional Service</div>
-        </div>
-      </div>
-      <nav id="main-nav" class="navbar navbar-default">
-        <div class="container">
-          <div>
-            <ul class="nav navbar-nav">
-              <li>
-                <a href="/parking-lot-services/" title="Parking Lot Services">
-                  Parking Lots
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/recreational-court-services/"
-                  title="Recreational Court Services"
-                >
-                  Recreational Courts
-                </a>
-              </li>
-              <li>
-                <a href="/contact/" title="Company Information">
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a href="/" title="Home">
-                  Home
-                </a>
-              </li>
-            </ul>
+          <div
+            id="tagline"
+            className="text-center text-xl text-white pb-[15px]"
+          >
+            46 Years of Professional Service
           </div>
         </div>
-      </nav>
-      {children}
-      <div id="footer">
-        <div class="row">
-          <div class="inner">
-            <span class="phone">
-              <a href="tel:16108376703">
-                <span class="city">Lehigh Valley</span>{" "}
-                <i class="fa fa-phone"></i> 610-837-6703
-              </a>
-            </span>
-            <span class="phone">
-              <a href="tel:15704215532">
-                <span class="city">Poconos</span> <i class="fa fa-phone"></i>{" "}
-                570-421-5532
-              </a>
-            </span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="outer">
-            Copyright &#169; 1978-2024 Pavement Maintenance Contractors Inc.
-            <span class="developed-by">
-              <a
-                href="http://nillab.com/"
-                target="_blank"
-                rel="noreferrer"
-                title="Developed by Nillab"
+        <div className="border-b-2 shadow-md border-gray-100">
+          <nav className="flex justify-center bg-emerald-600 text-2xl font-semibold text-green-100">
+            <div className="flex flex-col md:flex-row justify-center md:space-y-0 my-4 space-y-4 text-center uppercase">
+              <Link
+                to="/parking-lot-services/"
+                getProps={isActive}
+                className="mx-6 hover:text-yellow-200"
               >
-                Developed by nillab
+                parking lots
+              </Link>
+              <Link
+                to="/recreational-court-services/"
+                getProps={isActive}
+                className="mx-6 hover:text-yellow-200"
+              >
+                recreational courts
+              </Link>
+              <Link
+                to="/contact/"
+                getProps={isActive}
+                className="mx-6 hover:text-yellow-200"
+              >
+                contact
+              </Link>
+              <Link
+                to="/email/"
+                getProps={isActive}
+                className="mx-6 hover:text-yellow-200"
+              >
+                email
+              </Link>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main className="mb-auto">
+        {children}
+      </main>
+
+      <footer className="h-100">
+        <div className="text-center bg-gray-800 py-5 text-xl text-gray-300">
+          <div className="grid container mx-auto  md:w-3/5  grid-cols-1 md:grid-cols-2">
+            <div className="pb-2 sm:pb-0 sm:pr-20">
+              <a href="tel:16108376703" className="hover:text-sky-300">
+                <span className="pr-2">Lehigh Valley</span>
+                <i className="fa fa-phone"></i> 610-837-6703
               </a>
-            </span>
+            </div>
+            <div className="">
+              <a href="tel:15704215532" className="hover:text-sky-300">
+                <span className="pr-2">Poconos</span>
+                <i className="fa fa-phone"></i> 570-421-5532
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+
+        <div className="text-center bg-gray-700 py-5 text-lg">
+          <div className="text-gray-300">
+            Pavement Maintenance Contractors Inc.
+          </div>
+          <div className="text-gray-500">Copyright &#169; 1978-2024</div>
+          <div>
+            <a
+              href="http://nillab.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium text-indigo-400 hover:text-indigo-500"
+            >
+              Developed by nillab
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
