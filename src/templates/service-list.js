@@ -19,10 +19,10 @@ const category = props => {
             return (
               <Link to={service.node.path} className="mb-10 mr-5 text-sky-600 hover:bg-gray-200 hover:text-green-400">
                 <div key={service.node.id} className="pr-5">
-                  <div className="float-left mr-5">
+                  <div className="md:float-left mr-5">
                     <GatsbyImage image={img} />
                   </div>
-                  <div className="ml-5 mr-10">
+                  <div className="md:ml-5 md:mr-10">
                     <div className="text-2xl font-medium">
                       {service.node.name}
                     </div>
