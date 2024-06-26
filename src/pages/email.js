@@ -56,6 +56,17 @@ export default class Contact extends React.Component {
                   />
                 </label>
                 <label className="block mb-6">
+                  <span className="text-gray-700">Phone number</span>
+                  <input
+                    name="phone"
+                    type="tel"
+                    className="form-input block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50"
+                    placeholder=""
+                    onChange={this.handleChange}
+                    required
+                  />
+                </label>
+                <label className="block mb-6">
                   <span className="text-gray-700">Email address</span>
                   <input
                     name="email"
