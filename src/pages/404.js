@@ -15,7 +15,7 @@ export default function NotFoundPage() {
         <div className="pb-2">
           <Link to="/" className="text-sky-600 hover:text-green-400">
             Go Back
-          </div>
+          </Link>
         </div>
       </div>
     </Layout>
