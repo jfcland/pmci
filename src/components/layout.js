@@ -44,11 +44,11 @@ export default function Layout({ children }) {
                 recreational courts
               </Link>
               <Link
-                to="/contact/"
+                to="/company-info/"
                 getProps={isActive}
                 className="mx-6 hover:text-yellow-200"
               >
-                contact
+                company info
               </Link>
               <Link
                 to="/email/"
