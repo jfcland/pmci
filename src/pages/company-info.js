@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-
-import service_area from "../static/img/pmci_service_area.jpg"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Contact() {
   return (
@@ -98,7 +97,7 @@ export default function Contact() {
             <div className="text-xl lg:text-3xl text-green-700 font-bold pb-4">
               Primary Service Area
             </div>
-            <img src={service_area} alt="Primary Service Area" />
+            <StaticImage src="../static/img/pmci_service_area.jpg" alt="Primary Service Area" />
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import logo from "../static/img/pmci-logo.jpg"
+import { StaticImage } from "gatsby-plugin-image"
 
 function isActive({ isCurrent }) {
   return isCurrent ? { className: "mx-6 text-yellow-400" } : null
@@ -8,21 +8,17 @@ function isActive({ isCurrent }) {
 
 export default function Layout({ children }) {
   return (
-    <div className="flex flex-col h-screen justify-between">
+    <div className="flex flex-col h-screen">
       <header className="h-30">
         <div className="bg-green-900 pt-5">
-          <a href="/">
-            <img
-              src={logo}
+          <a href="/" className="flex justify-center">
+            <StaticImage
+              src="../static/img/pmci-logo.jpg"
               alt="Pavement Maintenance Contractors"
-              id="logo"
               className="mx-auto"
             />
           </a>
-          <div
-            id="tagline"
-            className="text-center text-xl text-white pb-[15px]"
-          >
+          <div className="text-center text-xl text-white pb-[15px]">
             46 Years of Professional Service
           </div>
         </div>
