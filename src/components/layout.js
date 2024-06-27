@@ -57,9 +57,7 @@ export default function Layout({ children }) {
         </div>
       </header>
 
-      <main className="mb-auto">
-        {children}
-      </main>
+      <main className="mb-auto">{children}</main>
 
       <footer className="h-100">
         <div className="text-center bg-gray-800 py-5 text-xl text-gray-300">

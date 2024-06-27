@@ -97,7 +97,10 @@ export default function Contact() {
             <div className="text-xl lg:text-3xl text-green-700 font-bold pb-4">
               Primary Service Area
             </div>
-            <StaticImage src="../static/img/pmci_service_area.jpg" alt="Primary Service Area" />
+            <StaticImage
+              src="../static/img/pmci_service_area.jpg"
+              alt="Primary Service Area"
+            />
           </div>
         </div>
       </div>

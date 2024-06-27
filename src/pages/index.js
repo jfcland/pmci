@@ -17,10 +17,15 @@ export default function Home() {
             <div className="text-right mr-5">
               <div className="">Parking Lots</div>
               <div className="text-gray-600 text-xl">
-                Sealcoating, Striping, Repairs and Consultations for commercial projects of any size.
+                Sealcoating, Striping, Repairs and Consultations for commercial
+                projects of any size.
               </div>
             </div>
-            <img src={parklots} alt="parking lots" className="float-right hover:sepia-[.25]" />
+            <img
+              src={parklots}
+              alt="parking lots"
+              className="float-right hover:sepia-[.25]"
+            />
           </Link>
         </div>
         <div>
@@ -32,10 +37,15 @@ export default function Home() {
             <div className="text-left ml-5">
               <div className="">Recreational Courts</div>
               <div className="text-gray-600 text-xl">
-                  Pickleball, Tennis, Basketball, Skateparks, Playgrounds and more.
+                Pickleball, Tennis, Basketball, Skateparks, Playgrounds and
+                more.
               </div>
             </div>
-            <img src={homecourt} alt="courts" className="float-left hover:sepia-[.25]" />
+            <img
+              src={homecourt}
+              alt="courts"
+              className="float-left hover:sepia-[.25]"
+            />
           </Link>
         </div>
       </div>
