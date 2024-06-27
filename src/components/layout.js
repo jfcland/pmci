@@ -15,7 +15,6 @@ export default function Layout({ children }) {
             <StaticImage
               src="../static/img/pmci-logo.jpg"
               alt="Pavement Maintenance Contractors"
-              className="mx-auto"
             />
           </a>
           <div className="text-center text-xl text-white pb-[15px]">
