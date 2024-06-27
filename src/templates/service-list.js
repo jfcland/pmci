@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { GatsbyImage, StaticImage, getImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 
 const category = props => {
@@ -34,6 +34,13 @@ const category = props => {
               </Link>
             )
           })}
+          <div>
+            <StaticImage
+              src="../static/img/costars-logo.jpg"
+              alt="Pavement Maintenance Contractors"
+              width={350}
+            />
+          </div>
         </div>
       </div>
     </Layout>
