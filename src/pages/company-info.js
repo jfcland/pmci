@@ -60,35 +60,6 @@ export default function Contact() {
                   jciccone@pavementcontractors.com
                 </a>
               </div>
-              <div>
-                <span className="font-bold">Project Manager: </span>
-                <span className="text-gray-800">Ron Brand</span>
-                <br />
-                <span className="font-bold">Phone: </span>
-                <a
-                  href="tel:16108376703"
-                  className="text-sky-500 hover:text-sky-700"
-                >
-                  610-837-6703
-                </a>{" "}
-                <span className="text-gray-800">EXT. 305</span>
-                <br />
-                <span className="font-bold">Cell: </span>
-                <a
-                  href="tel:14842399006"
-                  className="text-sky-500 hover:text-sky-700"
-                >
-                  484-239-9006
-                </a>
-                <br />
-                <span className="font-bold">Email: </span>
-                <a
-                  href="mailto:rbrand@pavementcontractors.com"
-                  className="text-sky-500 hover:text-sky-700"
-                >
-                  rbrand@pavementcontractors.com
-                </a>
-              </div>
             </div>
           </div>
         </div>
