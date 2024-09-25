@@ -61,7 +61,7 @@ export default function Layout({ children }) {
 
       <footer className="h-100">
         <div className="text-center bg-gray-800 py-5 text-xl text-gray-300">
-          <div className="grid container mx-auto  md:w-3/5  grid-cols-1 md:grid-cols-2">
+          <div className="grid container mx-auto md:w-3/5 grid-cols-1 md:grid-cols-2">
             <div className="pb-2 sm:pb-0 sm:pr-20">
               <a href="tel:16108376703" className="hover:text-sky-300">
                 <span className="pr-2">Lehigh Valley</span>
